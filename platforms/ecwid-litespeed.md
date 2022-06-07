@@ -1,0 +1,3 @@
+# ECWID (LiteSpeed)
+
+ECWID
