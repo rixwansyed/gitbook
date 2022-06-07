@@ -6,7 +6,7 @@
 
 ## Get your Cashew Secret Key (API key)
 
-Your API requests are authenticated using Cashew Secret key. Any request that doesn't include  Cashew Secret key will return an error.
+Your API requests are authenticated using Cashew Secret key. Any request that doesn't include Cashew Secret key will return an error.
 
 You can generate Cashew Secret key from Cashew Merchant Dashboard at any time or Request from Cashew merchant support.
 
@@ -16,7 +16,7 @@ The best way to interact with our API is to use one of our official libraries:
 
 To make your first request, you need to first Authenticate using the Cashew identity API.
 
-{% swagger baseUrl="https://api.cashewpayments.com/v1" method="post" path="/identity/store/authorize" summary="Create and get Cashew Store Token" %}
+{% swagger baseUrl="https://api-dev.cashewpayments.com/v1" method="post" path="/identity/store/authorize" summary="Create and get Cashew Store Token" %}
 {% swagger-description %}
 Create Store Token
 {% endswagger-description %}
@@ -43,8 +43,6 @@ Merchant Store Base URL
 {% endswagger-response %}
 
 {% swagger-response status="401: Unauthorized" description="Permission denied" %}
-
-
 ```
 {
     "status": "error",
@@ -99,10 +97,7 @@ var_dump($resp);
 
 ?>
 
-
 ```
-
-
 {% endtab %}
 
 {% tab title="Python" %}
@@ -121,7 +116,6 @@ headers["Content-Length"] = "0"
 resp = requests.post(url, headers=headers)
 
 print(resp.status_code)
-
 
 ```
 {% endtab %}
@@ -144,7 +138,6 @@ xhr.onreadystatechange = function () {
    }};
 
 xhr.send();
-
 ```
 {% endtab %}
 
@@ -160,7 +153,6 @@ http.setRequestProperty("Content-Length", "0");
 
 System.out.println(http.getResponseCode() + " " + http.getResponseMessage());
 http.disconnect();
-
 ```
 {% endtab %}
 
@@ -183,7 +175,6 @@ using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
 }
 
 Console.WriteLine(httpResponse.StatusCode);
-
 ```
 {% endtab %}
 {% endtabs %}
