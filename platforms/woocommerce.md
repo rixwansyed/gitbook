@@ -40,29 +40,3 @@ After Activating the plugin, please follow the following steps
 * Set Secret **"Share this Secret with Cashew Payments Integration Team"**
 * Click Save
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Create new Webhook Choose topic Order Created and name it "Order Created"\
-Create another webhook, choose order updated and name it "Order updated" and save&#x20;
-
-Enter the Password and share the same password with us
