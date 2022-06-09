@@ -4,9 +4,6 @@
   * [Magento 2.x](platforms/magento-2.x.md)
   * [WooCommerce](platforms/woocommerce.md)
   * [Shopify](platforms/shopify.md)
-  * [ECWID (LiteSpeed)](platforms/ecwid-litespeed.md)
-  * [Open Cart](platforms/open-cart.md)
-  * [Shopaccino](platforms/shopaccino.md)
 
 ## Reference
 
