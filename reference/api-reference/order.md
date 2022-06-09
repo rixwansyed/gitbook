@@ -4,22 +4,14 @@
 **Good to know:** All the methods shown below are synced to an example Swagger file URL and are kept up to date automatically with changes to the API.
 {% endhint %}
 
-## User actions
+## Get Order By Cashew Order ID
 
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/user/login" method="get" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
+{% swagger src="https://api-dev.cashewpayments.com/v1/orders/v2/api-docs" path="/v1/orders/{orderId}" method="get" %}
+[https://api-dev.cashewpayments.com/v1/orders/v2/api-docs](https://api-dev.cashewpayments.com/v1/orders/v2/api-docs)
 {% endswagger %}
 
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/user/logout" method="get" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
-{% endswagger %}
+## Get Order By Store Order Reference
 
-## Creating users
-
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/user/createWithList" method="post" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
-{% endswagger %}
-
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/user/createWithArray" method="post" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
+{% swagger src="https://api-dev.cashewpayments.com/v1/orders/v2/api-docs" path="/v1/orders/reference/{orderReference}" method="get" %}
+[https://api-dev.cashewpayments.com/v1/orders/v2/api-docs](https://api-dev.cashewpayments.com/v1/orders/v2/api-docs)
 {% endswagger %}
