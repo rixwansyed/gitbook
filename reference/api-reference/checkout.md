@@ -4,6 +4,12 @@
 **Good to know:** in order to process the payment with Cashew Payments, you need to pass order payload to cashew and generate Cashew order
 {% endhint %}
 
+## Creating a new cashew order
+
+{% swagger src="https://api-dev.cashewpayments.com/v1/checkouts/v2/api-docs" path="/v1/checkouts" method="post" %}
+[https://api-dev.cashewpayments.com/v1/checkouts/v2/api-docs](https://api-dev.cashewpayments.com/v1/checkouts/v2/api-docs)
+{% endswagger %}
+
 Take a look at how you might call this method using below code examples:
 
 {% tabs %}
@@ -109,9 +115,3 @@ xhr.send(data);
 
 {% endtab %}
 {% endtabs %}
-
-## Creating a new cashew order
-
-{% swagger src="https://api-dev.cashewpayments.com/v1/checkouts/v2/api-docs" path="/v1/checkouts" method="post" %}
-[https://api-dev.cashewpayments.com/v1/checkouts/v2/api-docs](https://api-dev.cashewpayments.com/v1/checkouts/v2/api-docs)
-{% endswagger %}
